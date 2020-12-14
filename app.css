@@ -1,0 +1,118 @@
+/* LAYOUT FOR EVERYTHING ELSE */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  background-image: url("../images/background-patter.jpg"); 
+  background-color: white ; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+
+/* SPECIFIC LAYOUT */
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color:black;
+  background: rgba(212, 62, 62, 0.795);
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:3px;
+  padding: 10px 20px;
+  align-self: center;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+
+
+/* CLASSES */
+.wrapper {
+  margin: auto;
+  width: 80%;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  }
+
+.rounded-circle {
+  border-radius: 5% !important;
+}
+
+
+/* GROUPS AND ITEMS */
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+
+/* MEDIA */
+@media (min-width: 700px) {
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px
+  }
+  }
+
+  @media all and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+    margin: auto;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
+
+/* FORMS */
+
+input[type='radio'] {transform: scale(1.4)}
