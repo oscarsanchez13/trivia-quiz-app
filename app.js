@@ -286,3 +286,5 @@ function handleQuiz () {
   handleSeeResults();
   handleRestartQuiz();
 }
+
+$(render);
