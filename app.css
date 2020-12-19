@@ -51,6 +51,16 @@ main {
   padding: 20px;
 }
 
+span {
+  text-align: center;
+  font-size: 15px;
+  margin: 20px;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
 
 /* CLASSES */
 .wrapper {
@@ -69,6 +79,13 @@ main {
   border-radius: 5% !important;
 }
 
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
 
 /* GROUPS AND ITEMS */
 .group {
