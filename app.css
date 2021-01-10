@@ -46,7 +46,9 @@ img {
 }
 
 main {
+  background-color: white;
   border: 2px solid black;
+  box-shadow: 0 0 25px black;
   margin: 20px;
   padding: 20px;
 }
