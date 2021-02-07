@@ -1,4 +1,4 @@
-# trivia-quiz-app
+# Triviapp
 Thinkful (https://thinkful.com/) Static Javascript Project - Static interactive quiz that allows the user to test their knowledge on various subjects and provides an accurate score based on user input. 
 
 ## Live Site
