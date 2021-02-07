@@ -2,10 +2,10 @@
 Thinkful (https://thinkful.com/) Static Javascript Project - Static interactive quiz that allows the user to test their knowledge on various subjects and provides an accurate score based on user input. 
 
 ## Live Site
-You can find Sweater or Sandals? at https://oscarsanchez13.github.io/trivia-quiz-app/
+You can find Sweater or Sandals? at https://oscarsanchez13.github.io/triviapp/
 
-![Trivia Quiz Home.](https://github.com/oscarsanchez13/trivia-quiz-app/blob/master/sc1.PNG)
-![Trivia Quiz Question Screen.](https://github.com/oscarsanchez13/trivia-quiz-app/blob/master/sc2.PNG)
+![Triviapp Home.](https://github.com/oscarsanchez13/triviapp/blob/master/sc1.PNG)
+![Triviapp Question Screen.](https://github.com/oscarsanchez13/triviapp/blob/master/sc2.PNG)
 
 ## Introduction
 Fun passtime online game, used to test user's trivia knowledge against their friends or play solo and attempt to get a perfect score.
